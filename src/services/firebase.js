@@ -13,12 +13,12 @@ export {GoogleAuthProvider,sendEmailVerification,createUserWithEmailAndPassword,
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCw_bAQetCAJQnT5PNt8UvFKxK7YYgkneI",
-  authDomain: "crud-react-firebase-60aea.firebaseapp.com",
-  projectId: "crud-react-firebase-60aea",
-  storageBucket: "crud-react-firebase-60aea.firebasestorage.app",
-  messagingSenderId: "837327697078",
-  appId: "1:837327697078:web:2965c86b4309145e2b2217"
+  apiKey: API_KEY_FIREBASE,
+  authDomain: AUTH_DOMAIN_FIREBASE,
+  projectId: PROJECT_ID_FIREBASE,
+  storageBucket: STORAGE_BUCKET_FIREBASE,
+  messagingSenderId: MESSAGING_SENDER_ID_FIREBASE,
+  appId: APP_ID_FIREBASE
 };
 
 // Initialize Firebase

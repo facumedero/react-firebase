@@ -12,24 +12,24 @@ export {GoogleAuthProvider,sendEmailVerification,createUserWithEmailAndPassword,
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration DEV
-const firebaseConfig = {
+/*const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
   authDomain: import.meta.env.VITE_AUTH_DOMAIN,
   projectId: import.meta.env.VITE_PROJECT_ID,
   storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
   messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
   appId: import.meta.env.VITE_APP_ID
-};
+};*/
 
 // Your web app's Firebase configuration PROD WITH SECRETS
-/*const firebaseConfig = {
+const firebaseConfig = {
   apiKey:  API_KEY_FIREBASE ,
   authDomain:  AUTH_DOMAIN_FIREBASE ,
   projectId:  PROJECT_ID_FIREBASE,
   storageBucket:  STORAGE_BUCKET_FIREBASE,
   messagingSenderId:  MESSAGING_SENDER_ID_FIREBASE,
   appId: APP_ID_FIREBASE 
-};*/
+};
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
